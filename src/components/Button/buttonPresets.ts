@@ -18,13 +18,13 @@ export const buttonPresets: Record<
   primary: {
     default: {
       container: {
-        backgroundColor: 'background',
+        backgroundColor: 'primary',
       },
       content: 'white',
     },
     disabled: {
       container: {
-        backgroundColor: 'background',
+        backgroundColor: 'primary',
         activeOpacity: 0.4,
       },
       content: 'white',

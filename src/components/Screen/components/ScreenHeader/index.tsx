@@ -27,6 +27,7 @@ export function ScreenHeader({
       paddingHorizontal="s16"
       alignItems="center"
       borderBottomColor="gray3"
+      backgroundColor="primary"
       borderBottomWidth={0.5}
       justifyContent="space-between">
       {canGoBack && (

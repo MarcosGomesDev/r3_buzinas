@@ -65,9 +65,9 @@ export function Screen({
         backgroundColor={
           scrollable && statusBarTranslucent
             ? scrolled
-              ? colors.background
+              ? colors.primary
               : 'transparent'
-            : colors.background
+            : colors.primary
         }
         translucent={statusBarTranslucent}
       />
@@ -86,7 +86,6 @@ export function Screen({
           <Box
             style={{
               backgroundColor: colors.background,
-              paddingTop: top,
             }}
             alignContent="center">
             <ScreenHeader
