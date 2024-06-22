@@ -6,10 +6,10 @@ import { Image } from 'react-native';
 function Header() {
   return (
     <Box
-      height={50}
+      height={70}
       width={'100%'}
       justifyContent="center"
-      backgroundColor="background"
+      backgroundColor="primary"
       alignContent="center"
       alignItems="center">
       <Image
@@ -18,9 +18,10 @@ function Header() {
           width: 100,
           height: 90,
           alignSelf: 'center',
+          marginTop: 10,
           transform: [
             {
-              scale: 0.7,
+              scale: 0.8,
             },
           ],
         }}
